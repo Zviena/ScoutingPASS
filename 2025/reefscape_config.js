@@ -10,13 +10,13 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
       "defaultValue": "2025ilpe",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match Level",
       "code": "l",
@@ -27,14 +27,14 @@ var config_data = `
         "f": "Finals"
       },
       "defaultValue": "qm",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match #",
       "code": "m",
       "type": "match",
       "min": 1,
       "max": 150,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Robot",
       "code": "r",
@@ -47,7 +47,7 @@ var config_data = `
         "r3": "Red-3",
         "b3": "Blue-3"
       },
-      "required":"true"
+      "required":"false"
     },
     { "name": "Team #",
       "code": "t",
@@ -55,13 +55,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Auto Start Position",
-      "code": "as",
-      "type": "clickable_image",
-      "filename": "2025/field_image.png",
-      "clickRestriction": "one",
-      "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
-      "shape": "circle 5 black red true"
     }
   ],
   "auton": [

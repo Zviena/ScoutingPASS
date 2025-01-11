@@ -11,8 +11,8 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
-    color: orangered;
-    background-color: black;
+    color: black;
+    background-color: orangered;
 }
 
 #prematch_table, #postmatch_table {
@@ -80,8 +80,8 @@ html, body{
     position: absolute;
     left: 0;
     top: 0;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: orangered;
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: justify;
 }
@@ -93,7 +93,7 @@ html, body{
 #auton{
 }
 
-#teleop{
+id="teleop"{
 }
 
 #endgame{

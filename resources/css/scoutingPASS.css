@@ -91,15 +91,19 @@ html, body{
 }
 
 #auton{
+    display: inline-block;
 }
 
 #teleop{
+    display: inline-block;
 }
 
 #endgame{
+    display: inline-block;
 }
 
 #postmatch{
+    display: inline-block;
 }
 
 #qr-code{

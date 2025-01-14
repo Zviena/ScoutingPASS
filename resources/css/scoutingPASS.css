@@ -91,19 +91,19 @@ html, body{
 }
 
 #auton{
-    display: inline-block;
+    display: table;
 }
 
 #teleop{
-    display: inline-block;
+    display: table;
 }
 
 #endgame{
-    display: inline-block;
+    display: table;
 }
 
 #postmatch{
-    display: inline-block;
+    display: table;
 }
 
 #qr-code{

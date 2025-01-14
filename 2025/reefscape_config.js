@@ -26,9 +26,6 @@ var config_data = `
         "sf": "Semifinals<br>",
         "f": "Finals"
         "required": "false"
-      },
-      "defaultValue": "qm",
-      "required": "false"
     },
     { "name": "Match #",
       "code": "m",
